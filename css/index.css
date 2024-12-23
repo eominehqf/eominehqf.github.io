@@ -1,0 +1,51 @@
+/* 基础设置 */
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+
+/* 顶部导航条start */
+.topbar {
+  background-color: #ECECEC;
+  height: 40px;
+}
+
+.welcome {
+  height: 40px;
+  line-height: 40px;
+  font-size: 0;
+  color: #666;
+}
+
+.welcome span, .welcome a {
+  font-size: 16px;
+}
+
+.welcome .hello {
+  margin-right: 28px;
+}
+
+.topbar-nav ul {
+  height: 40px;
+  line-height: 40px;
+}
+
+.topbar-nav ul li {
+    float: left;
+    font-size: 16px;
+}
+
+.topbar-nav ul li a {
+    border-right: 1px solid #666;
+    padding: 0 15px;
+}
+
+.topbar-nav ul li:first-child a {
+    padding-left: 0;
+}
+
+.topbar-nav ul li:last-child a {
+    border-right: 0;
+    padding-right: 0;
+}
+/* 顶部导航条end */
