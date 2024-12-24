@@ -49,3 +49,37 @@
     padding-right: 0;
 }
 /* 顶部导航条end */
+
+
+/* 头部区域start */
+.header {
+  height: 120px;
+  background-color: gray;
+}
+
+.header-logo img {
+    width: 100px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header-search form {
+    font-size: 0;
+    margin-top: 42px;
+}
+
+.header-search form input {
+    width: 508px;
+    height: 34px;
+    border: 1px solid black; 
+}
+
+.header-search form button {
+    width: 80px;
+    height: 36px;
+    background-color: black;
+    color: white;
+    border: 0;
+    vertical-align: top;
+}
+/* 头部区域end */
