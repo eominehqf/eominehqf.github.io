@@ -78,6 +78,6 @@ a:hover {
 
 .clearfix::after {
     content: "";
-    display: block;
+    display: table;
     clear: both;
 }
